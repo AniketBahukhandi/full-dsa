@@ -5,8 +5,9 @@ int main(){
     cin>>n;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=i;j++){
-            cout<<"*"<<" ";
+            cout<<char('A'+n-i+j-1)<<' ';
         }
-        cout<<endl;3
+        cout<<endl;
+
     }
 }
